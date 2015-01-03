@@ -3,7 +3,7 @@
 This child theme needs to instruct WordPress where to find the stylesheet, as below.
 
 Notice that the 'add_action' line ends with '101'? This guarantees that the child stylesheet 
-(bst-plus-child.css') is added to the webpage <head> AFTER the FST parent theme stylesheets.
+(fst-child.css') is added to the webpage <head> AFTER the FST parent theme stylesheets.
 (Because in the FST enqueue, the 'add_action' line ends with '100'.)
 */
 
